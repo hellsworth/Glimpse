@@ -348,7 +348,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Penselredigering"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -495,7 +495,7 @@ msgstr "Palettredigering"
 msgid "Palettes"
 msgstr "Palettar"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -10913,7 +10913,7 @@ msgid ""
 "used to be the default behaviour in older versions."
 msgstr ""
 "Gjer at  flytteverktøyet set laget eller banen du redigerer som den aktive. "
-"Dette var normalinnstillinga i tidlegare versjonar av GIMP."
+"Dette var normalinnstillinga i tidlegare versjonar av Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:313
 msgid ""
@@ -12704,11 +12704,11 @@ msgstr "Utan namn"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Fatal tolkingsfeil i penselfil:\n"
 "Ugyldig penseldjupn %d\n"
-"GIMP-penslar må vere GRÅ eller RGBA."
+"Glimpse-penslar må vere GRÅ eller RGBA."
 
 #: ../app/core/gimpbrush-load.c:519
 #, fuzzy, c-format
@@ -12770,18 +12770,18 @@ msgstr "Utklippstavle"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
-msgstr "Ikkje ei penselfil for GIMP"
+msgid "Not a GNU I.M.P brush file."
+msgstr "Ikkje ei penselfil for Glimpse"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
-msgstr "Ukjend versjon av GIMP-pensel."
+msgid "Unknown GNU I.M.P brush version."
+msgstr "Ukjend versjon av Glimpse-pensel."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
-msgstr "Ukjend form for GIMP-pensel."
+msgid "Unknown GNU I.M.P brush shape."
+msgstr "Ukjend form for Glimpse-pensel."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, fuzzy, c-format
@@ -13351,7 +13351,7 @@ msgstr "Fyll einsfarga"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Ikkje ei fargeovergangsfil for GIMP"
+msgstr "Ikkje ei fargeovergangsfil for Glimpse"
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14311,10 +14311,10 @@ msgstr "Ukjent mønsterformatversjon %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Ugyldig mønsterdjupn %d.\n"
-"GIMP-mønsterelementa må vere GRÅ eller RGB."
+"Glimpse-mønsterelementa må vere GRÅ eller RGB."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -15268,7 +15268,7 @@ msgid ""
 "save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Du kan bruka dette vindauget til å eksportera til ulike filformat. Ønskjer "
-"du å lagra i GIMPs XCF-format, bruk Fil → Lagra i staden."
+"du å lagra i Glimpse XCF-format, bruk Fil → Lagra i staden."
 
 #: ../app/dialogs/file-save-dialog.c:622
 msgid "Take me to the Save dialog"
@@ -15284,7 +15284,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Du kan bruka dette vindauget til å lagra i GIMPs XCF-format. Bruk Fil → "
+"Du kan bruka dette vindauget til å lagra i Glimpses XCF-format. Bruk Fil → "
 "Eksporter for å lagra i andre format."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -18672,13 +18672,8 @@ msgstr "Ugyldig teiknsekvens i URI"
 msgid "GNU I.M.P brush"
 msgstr "Luftpensel"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Luftpensel"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18688,7 +18683,7 @@ msgstr "Mønsterelement"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Mønsterelement"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -19574,7 +19569,7 @@ msgid ""
 "Convert a set of coefficient buffer to a coordinate buffer for the GNU I.M.P "
 "cage tool"
 msgstr ""
-"Konverter eit sett med koeffisientbufferar til kooedinatbufferar for GIMP "
+"Konverter eit sett med koeffisientbufferar til kooedinatbufferar for Glimpse "
 "sitt formendringsverktøy"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
@@ -21116,7 +21111,7 @@ msgstr ""
 "Programtillegget krasja: «%s»\n"
 "(%s)\n"
 "\n"
-"Det hender at slike krasj øydelegg GIMP. Du bør difor lagra bileta dine og "
+"Det hender at slike krasj øydelegg Glimpse. Du bør difor lagra bileta dine og "
 "starta Glimpse på nytt for å vera på den sikre sida."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -21238,7 +21233,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Hopper over «%s»: feil versjon av GIMP-protokollen."
+msgstr "Hopper over «%s»: feil versjon av Glimpse-protokollen."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -24168,7 +24163,7 @@ msgstr "Bruk teksthandteraren"
 
 #: ../app/tools/gimptextoptions.c:210
 msgid "Use an external editor window for text entry"
-msgstr "Bruk GIMPs teksthandterar for å skriva inn tekst"
+msgstr "Bruk Glimpses teksthandterar for å skriva inn tekst"
 
 #: ../app/tools/gimptextoptions.c:595
 msgid "Hinting:"
@@ -27142,7 +27137,7 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:407
 #, fuzzy
 msgid "Metadata won't be visible in GNU I.M.P older than version 2.10."
-msgstr "Metadata vil ikkje vere synlege i GIMP-versjonar eldre enn 2.10."
+msgstr "Metadata vil ikkje vere synlege i Glimpse-versjonar eldre enn 2.10."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -27904,7 +27899,7 @@ msgstr "mjuke"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28123,8 +28118,8 @@ msgstr "mjuke"
 #~ msgstr ""
 #~ "Fatal tolkingsfeil i penselfil:\n"
 #~ "Ugyldig penseldjupn %d\n"
-#~ "GIMP-penslar må vere GRÅ eller RGBA.\n"
-#~ "Det kan vere ei forelda penselfil for GIMP. Prøv å lasta ho inn som "
+#~ "Glimpse-penslar må vere GRÅ eller RGBA.\n"
+#~ "Det kan vere ei forelda penselfil for Glimpse. Prøv å lasta ho inn som "
 #~ "bilete og lagra ho igjen."
 
 #~ msgctxt "undo-type"
@@ -28581,14 +28576,14 @@ msgstr "mjuke"
 #~ "line %d."
 #~ msgstr ""
 #~ "Fatal tolkingsfeil i penselfila «%s»: Penselversjonen i linje %d er "
-#~ "ukjent for GIMP."
+#~ "ukjent for Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
 #~ "Fatal tolkingsfeil i penselfila «%s»: Penselformatet i linje %d er ukjent "
-#~ "for GIMP."
+#~ "for Glimpse."
 
 #~ msgid "Line %d: %s"
 #~ msgstr "Linje %d: %s"

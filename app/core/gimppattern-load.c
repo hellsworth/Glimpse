@@ -21,8 +21,8 @@
 #include <gegl.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpcolor/gimpcolor.h"
 
 #include "core-types.h"
 
@@ -85,7 +85,7 @@ gimp_pattern_load (GimpContext   *context,
     {
       g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
                    _("Unsupported pattern depth %d.\n"
-                     "GIMP Patterns must be GRAY or RGB."),
+                     "GNU I.M.P Patterns must be GRAY or RGB."),
                    header.bytes);
       goto error;
     }

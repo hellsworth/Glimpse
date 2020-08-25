@@ -370,7 +370,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Pinseleditor"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -516,7 +516,7 @@ msgstr "Paletteneditor"
 msgid "Palettes"
 msgstr "Paletten"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12546,7 +12546,7 @@ msgstr "Unbenannt"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Schwerwiegender Fehler beim Verarbeiten der Pinseldatei: Nicht unterstützte "
 "Farbtiefe %d\n"
@@ -12622,18 +12622,18 @@ msgstr "Zwischenablage-Bild"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
-msgstr "Keine GIMP-Pinseldatei."
+msgid "Not a GNU I.M.P brush file."
+msgstr "Keine Glimpse-Pinseldatei."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
-msgstr "Unbekannte GIMP-Pinselversion."
+msgid "Unknown GNU I.M.P brush version."
+msgstr "Unbekannte Glimpse-Pinselversion."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
-msgstr "Unbekannte GIMP-Pinselform."
+msgid "Unknown GNU I.M.P brush shape."
+msgstr "Unbekannte Glimpse-Pinselform."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13194,7 +13194,7 @@ msgstr "Mit reiner Farbe füllen"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Keine GIMP-Gradientendatei."
+msgstr "Keine Glimpse-Gradientendatei."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14160,7 +14160,7 @@ msgstr "Unbekannte Musterformatversion %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Nicht unterstützte Mustertiefe %d.\n"
 "GIMP-Muster müssen in Graustufen oder RGB vorliegen."
@@ -18386,14 +18386,9 @@ msgstr "Ungültige Zeichenfolge in Adresse"
 msgid "GNU I.M.P brush"
 msgstr "MyPaint-Pinsel"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "MyPaint-Pinsel"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-Pinsel (animiert)"
 
 #: ../app/file-data/file-data.c:365
@@ -18403,7 +18398,7 @@ msgstr "Muster"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Muster"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -19113,7 +19108,7 @@ msgstr "Kurve"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "keine GIMP-Kurvendatei"
+msgstr "keine Glimpse-Kurvendatei"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19189,7 +19184,7 @@ msgstr "Die endgültigen Ausgangswerte auf einen Bereich beschränken."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "keine GIMP-Datei mit Einstellungen für Werte"
+msgstr "keine Glimpse-Datei mit Einstellungen für Werte"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19208,7 +19203,7 @@ msgstr "Helligkeit und Kontrast anpassen"
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
-"Eine Reihe von Koeffizienten-Puffern für das GIMP-Käfigwerkzeug berechnen"
+"Eine Reihe von Koeffizienten-Puffern für das Glimpse-Käfigwerkzeug berechnen"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19216,7 +19211,7 @@ msgid ""
 "Convert a set of coefficient buffer to a coordinate buffer for the GNU I.M.P "
 "cage tool"
 msgstr ""
-"Eine Reihe von Koeffizienten-Puffern in einen Koordinatenpuffer für das GIMP-"
+"Eine Reihe von Koeffizienten-Puffern in einen Koordinatenpuffer für das Glimpse-"
 "Käfigwerkzeug umwandeln"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
@@ -20855,7 +20850,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "»%s« wird übersprungen: Falsche GIMP-Protokollversion."
+msgstr "»%s« wird übersprungen: Falsche Glimpse-Protokollversion."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -27396,7 +27391,7 @@ msgstr "unscharf"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

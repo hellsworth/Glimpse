@@ -1,4 +1,4 @@
-# Danish translation for GIMP.
+# Danish translation for Glimpse.
 # Copyright (C) 2018 Free Software Foundation, Inc. & nedenstående oversættere.
 # This file is distributed under the same license as the Glimpse package.
 #
@@ -15,6 +15,7 @@
 # Joe Hansen <joedalton2@yahoo.dk>, 2010.
 # scootergrisen, 2015, 2016.
 # Alan Mortensen <alanmortensen.am@gmail.com>, 2017-19 (oversat og gennemgået i sin helhed).
+# Luna Nielsen <cli-luna@protonmail.com>, 2020 (diverse små rettelser)
 #
 # Ordlisten på http://wiki.dansk-gruppen.dk/index.php/Gimp-move kunne godt trænge til en opdatering.
 # Jeg har valgt at skele meget til Adobe Photoshop for ikke selv at opfinde oversættelser, som kun jeg forstår (Alan, 2017)
@@ -145,7 +146,7 @@ msgstr "Ekstrafiler til Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Mønstre, farveovergange og andre ekstrafiler til GIMP"
+msgstr "Mønstre, farveovergange og andre ekstrafiler til Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
@@ -178,6 +179,8 @@ msgid ""
 "Copyright © 2020 Glimpse Contributors\n"
 "Based on GNU Image Manipulation Program "
 msgstr ""
+"Copyright © 2020 Glimpse Bidragydere\n"
+"Baseret på GNU Image Manipulation Program "
 
 #. TRANSLATORS: do not end the license URL with a dot, because it would
 #. * be in the link. Because of technical limitations, make sure the URL
@@ -218,11 +221,13 @@ msgid ""
 "A new version of Glimpse (%s) was released.\n"
 "It is recommended to update."
 msgstr ""
+"En ny version of Glimpse (%s) er udgivet.\n"
+"Det er anbefalet at opdatere."
 
 #: ../app/gimp-version.c:66 ../app/gimp-version.c:185
 #, c-format
 msgid "using %s version %s (compiled against version %s)"
-msgstr "bruger %s version %s (oversat mod version %s)"
+msgstr "bruger %s version %s (kompileret mod version %s)"
 
 #: ../app/gimp-version.c:213
 #, c-format
@@ -393,7 +398,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Penselredigering"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -540,7 +545,7 @@ msgstr "Paletredigering"
 msgid "Palettes"
 msgstr "Paletter"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12492,7 +12497,7 @@ msgstr "Unavngivet"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Fatal fortolkningsfejl i penselfilen:\n"
 "Penseldybden %d er ikke understøttet.\n"
@@ -12560,18 +12565,18 @@ msgstr "Udklipsholderbillede"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
-msgstr "Ikke en GIMP-penselfil."
+msgid "Not a GNU I.M.P brush file."
+msgstr "Ikke en Glimpse-penselfil."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
-msgstr "Ukendt GIMP-penselversion."
+msgid "Unknown GNU I.M.P brush version."
+msgstr "Ukendt Glimpse-penselversion."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
-msgstr "Ukendt GIMP-penselform."
+msgid "Unknown GNU I.M.P brush shape."
+msgstr "Ukendt Glimpse-penselform."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13130,7 +13135,7 @@ msgstr "Udfyldning med ensartet farve"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Ikke en GIMP-farveovergangsfil."
+msgstr "Ikke en Glimpse-farveovergangsfil."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14088,7 +14093,7 @@ msgstr "Ukendt mønsterformatversion %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Ikke-understøttet mønsterdybde %d.\n"
 "GIMP-mønstre skal være gråtone eller RGB."
@@ -18273,14 +18278,9 @@ msgstr "Ugyldig tegnsekvens i URI"
 msgid "GNU I.M.P brush"
 msgstr "Mybrush"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Mybrush"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-pensel (animeret)"
 
 #: ../app/file-data/file-data.c:365
@@ -18290,7 +18290,7 @@ msgstr "Mønster"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Mønster"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -19080,7 +19080,7 @@ msgstr "Fasthold de endelige outputværdier."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ikke en GIMP-niveaufil"
+msgstr "ikke en Glimpse-niveaufil"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -20739,7 +20739,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Springer \"%s\" over: forkert version af GIMP-protokollen."
+msgstr "Springer \"%s\" over: forkert version af Glimpse-protokollen."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -26513,7 +26513,7 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:407
 #, fuzzy
 msgid "Metadata won't be visible in GNU I.M.P older than version 2.10."
-msgstr "Metadata er ikke synlige i GIMP-versioner ældre end 2.10."
+msgstr "Metadata er ikke synlige i Glimpse-versioner ældre end 2.10."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -27259,7 +27259,7 @@ msgstr "sløret"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

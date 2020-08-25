@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-15 00:26+0100\n"
+"POT-Creation-Date: 2020-07-29 06:10+0100\n"
 "PO-Revision-Date: 2020-02-08 12:24-0800\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
@@ -2365,7 +2365,7 @@ msgid "Cannot operate on unknown image types."
 msgstr ""
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr ""
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2508,7 +2508,7 @@ msgid "The default comment is limited to %d characters."
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:549
@@ -2988,7 +2988,7 @@ msgid "MNG animation"
 msgstr "MNG-animacio"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-modelo"
 
 #: ../plug-ins/common/file-pat.c:287

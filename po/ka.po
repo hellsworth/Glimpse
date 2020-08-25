@@ -1,4 +1,4 @@
-# Georgian translation of gimp.
+# Georgian translation of Glimpse.
 # This file is distributed under the same license as the Glimpse package.
 # George Machitidze  გიორგი მაჩითიძე  <giomac@gmail.com>
 msgid ""
@@ -97,7 +97,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP-ის ტექსტური რედაქტორი"
+msgstr "Glimpse-ის ტექსტური რედაქტორი"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -178,7 +178,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "GIMP-ის ტექსტური რედაქტორი"
+msgstr "Glimpse-ის ტექსტური რედაქტორი"
 
 #: ../app/main.c:184
 #, fuzzy
@@ -321,7 +321,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "ფუნჯის რედაქტორი"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -472,7 +472,7 @@ msgstr "პალიტრის რედაქტორი"
 msgid "Palettes"
 msgstr "პალიტრები"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12249,7 +12249,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP-ის შესახებ"
+msgstr "Glimpse-ის შესახებ"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -13267,7 +13267,7 @@ msgstr "უსახელო"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 
 #: ../app/core/gimpbrush-load.c:519
@@ -13325,17 +13325,17 @@ msgstr "გამოსახულების აღდგენა"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14968,7 +14968,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 
 #: ../app/core/gimppattern-load.c:99
@@ -15509,7 +15509,7 @@ msgstr "პროცენტი"
 #: ../app/dialogs/about-dialog.c:126
 #, fuzzy
 msgid "About Glimpse"
-msgstr "GIMP-ის შესახებ"
+msgstr "Glimpse-ის შესახებ"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15848,12 +15848,12 @@ msgstr "დარწმუნებული ხართ, რომ გსუ�
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP-ის შეტყობინება"
+msgstr "Glimpse-ის შეტყობინება"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP-ის შეტყობინება"
+msgstr "Glimpse-ის შეტყობინება"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -18247,7 +18247,7 @@ msgstr "პიქსელი/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "GIMP-ის შესახებ"
+msgstr "Glimpse-ის შესახებ"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
@@ -18479,7 +18479,7 @@ msgstr "tips-locale:ka"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP-ის გაფართოება"
+msgstr "Glimpse-ის გაფართოება"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -19407,13 +19407,8 @@ msgstr ""
 msgid "GNU I.M.P brush"
 msgstr "სახატავი ფუნჯი"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "სახატავი ფუნჯი"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19423,7 +19418,7 @@ msgstr "შაბლონი"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "შაბლონი"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -25016,7 +25011,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP-ის ტექსტური რედაქტორი"
+msgstr "Glimpse-ის ტექსტური რედაქტორი"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26828,7 +26823,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "GIMP-დან გასვლა"
+msgstr "Glimpse-დან გასვლა"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -28695,7 +28690,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP-ის შეტყობინება"
+msgstr "Glimpse-ის შეტყობინება"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -28731,7 +28726,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "GIMP XCF image"
-#~ msgstr "GIMP-ის XCF გამოსახულება"
+#~ msgstr "Glimpse-ის XCF გამოსახულება"
 
 #~ msgid "Plug-Ins"
 #~ msgstr "პლაგინები"
@@ -29296,7 +29291,7 @@ msgstr ""
 #~ msgstr "არ აჩვენო მისასალმებელი ფანჯარა"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "შეუძლებელია GIMP-თან დაკავშირება."
+#~ msgstr "შეუძლებელია Glimpse-თან დაკავშირება."
 
 #~ msgid "Couldn't start '%s': %s"
 #~ msgstr "ვერ გავუშვი '%s': %s"
@@ -29383,7 +29378,7 @@ msgstr ""
 #~ msgstr "პლაგინის ინიციალიზაცია: '%s'\n"
 
 #~ msgid "Internal Glimpse procedure"
-#~ msgstr "GIMP-ის შიდა პროცედურა"
+#~ msgstr "Glimpse-ის შიდა პროცედურა"
 
 #~ msgid "Invalid width or height. Both must be positive."
 #~ msgstr "სიმაღლე ან სიგანე არასწორია. ორივე დადებითი უნდა იყოს."
@@ -29518,7 +29513,7 @@ msgstr ""
 #~ msgstr "პლაგინის შეჩერება: '%s'\n"
 
 #~ msgid "The GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid "To_ys"
 #~ msgstr "სათამაშ_ოები"

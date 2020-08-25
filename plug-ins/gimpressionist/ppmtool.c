@@ -23,13 +23,13 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpsemath/gimpmath.h>
+#include <libgimp/gimp.h>
+#include <libgimpmath/gimpmath.h>
 
 #include "ppmtool.h"
 #include "gimpressionist.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static int
 readline (FILE *f, char *buffer, int len)
@@ -225,7 +225,7 @@ struct _BrushHeader
   unsigned int   width;       /*  width of brush  */
   unsigned int   height;      /*  height of brush  */
   unsigned int   bytes;       /*  depth of brush in bytes--always 1 */
-  unsigned int   magic_number;/*  GIMP brush magic number  */
+  unsigned int   magic_number;/*  GNU I.M.P brush magic number  */
   unsigned int   spacing;     /*  brush spacing  */
 };
 

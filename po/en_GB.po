@@ -1,4 +1,4 @@
-# This is the English, British catalogue for GIMP.
+# This is the English, British catalogue for Glimpse.
 # Copyright (C) 2000 Free Software Foundation, Inc.
 # Robert Brady <robert@susu.org.uk>, 2000.
 # Piers Cornwell <piers.cornwell@usa.net>, 2000.
@@ -119,7 +119,7 @@ msgstr "Create a new image"
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
 #, fuzzy
 msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;graphic;design;illustration;painting;"
+msgstr "graphic;design;illustration;painting;photography;gimp"
 
 #: ../app/about.h:25
 #, fuzzy
@@ -348,7 +348,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Brush Editor"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -494,7 +494,7 @@ msgstr "Palette Editor"
 msgid "Palettes"
 msgstr "Palettes"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12343,7 +12343,7 @@ msgstr "Unnamed"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
@@ -12404,17 +12404,17 @@ msgstr "Clipboard Image"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Not a Glimpse brush file."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "Unknown Glimpse brush version."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "Unknown Glimpse brush shape."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13913,7 +13913,7 @@ msgstr "Unknown pattern format version %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Unsupported pattern depth %d.\n"
 "Glimpse Patterns must be GRAY or RGB."
@@ -18060,13 +18060,8 @@ msgstr "Invalid character sequence in URI"
 msgid "GNU I.M.P brush"
 msgstr "Mybrush"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Mybrush"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18076,7 +18071,7 @@ msgstr "Pattern"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Pattern"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -28535,7 +28530,7 @@ msgstr "fuzzy"
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
-#~ "of system colours allocated for GIMP."
+#~ "of system colours allocated for Glimpse."
 
 #~ msgid "Brush Scale"
 #~ msgstr "Brush Scale"
@@ -29161,7 +29156,7 @@ msgstr "fuzzy"
 #~ "Sets the size of the thumbnail shown in the Open dialog. Note that GIMP "
 #~ "can not create thumbnails if layer previews are disabled."
 #~ msgstr ""
-#~ "Sets the size of the thumbnail shown in the Open dialogue. Note that GIMP "
+#~ "Sets the size of the thumbnail shown in the Open dialogue. Note that Glimpse "
 #~ "cannot create thumbnails if layer previews are disabled."
 
 #~ msgid "Add Sample_Point"
@@ -29421,7 +29416,7 @@ msgstr "fuzzy"
 #~ msgstr "The batch interpreter '%s' is not available, batch mode disabled."
 
 #~ msgid "The GIMP"
-#~ msgstr "The GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid ""
 #~ "The name of the directory holding the Glimpse user configuration cannot "
@@ -29875,7 +29870,7 @@ msgstr "fuzzy"
 #~ "Plug-ins and extensions are external programs run by the Glimpse which "
 #~ "provide additional functionality.  These programs are searched for at run-"
 #~ "time and information about their functionality and mod-times is cached in "
-#~ "this file.  This file is intended to be GIMP-readable only, and should "
+#~ "this file.  This file is intended to be Glimpse-readable only, and should "
 #~ "not be edited."
 
 #~ msgid ""
@@ -29885,10 +29880,10 @@ msgstr "fuzzy"
 #~ "define the keys from within The GIMP.  Deleting this file will restore "
 #~ "the default shortcuts."
 #~ msgstr ""
-#~ "Key shortcuts can be dynamically redefined in The GIMP. The menurc is a "
+#~ "Key shortcuts can be dynamically redefined in Glimpse. The menurc is a "
 #~ "dump of your configuration so it can. be remembered for the next "
 #~ "session.  You may edit this file if you wish, but it is much easier to "
-#~ "define the keys from within The GIMP.  Deleting this file will restore "
+#~ "define the keys from within Glimpse.  Deleting this file will restore "
 #~ "the default shortcuts."
 
 #~ msgid ""
@@ -29934,10 +29929,10 @@ msgstr "fuzzy"
 #~ "to have GIMP-only fonts, otherwise put things in your global font "
 #~ "directory."
 #~ msgstr ""
-#~ "This folder is used to store fonts you only want visible in the GIMP. The "
+#~ "This folder is used to store fonts you only want visible in Glimpse. The "
 #~ "Glimpse checks this folder in addition to the system-wide Glimpse fonts "
 #~ "installation when searching for fonts. Use this only if you really want "
-#~ "to have GIMP-only fonts, otherwise put things in your global font "
+#~ "to have Glimpse-only fonts, otherwise put things in your global font "
 #~ "directory."
 
 #~ msgid ""
@@ -30033,7 +30028,7 @@ msgstr "fuzzy"
 #~ "This folder is used to temporarily store undo buffers to reduce memory "
 #~ "usage.  If The Glimpse is unceremoniously killed, files of the form: "
 #~ "gimp<#>.<#> may persist in this folder.  These files are useless across "
-#~ "GIMP sessions and can be destroyed with impunity."
+#~ "Glimpse sessions and can be destroyed with impunity."
 
 #~ msgid "This folder is used to store tool options."
 #~ msgstr "This folder is used to store tool options."
@@ -30058,7 +30053,7 @@ msgstr "fuzzy"
 #~ "The GIMP %d.%d User Installation"
 #~ msgstr ""
 #~ "Welcome to\n"
-#~ "The GIMP %d.%d User Installation"
+#~ "The Glimpse %d.%d User Installation"
 
 #~ msgid "Click \"Continue\" to enter the Glimpse user installation."
 #~ msgstr "Click \"Continue\" to enter the Glimpse user installation."
@@ -30068,7 +30063,7 @@ msgstr "fuzzy"
 #~ "Copyright (C) 1995-2004\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team."
 #~ msgstr ""
-#~ "<b>The GIMP - GNU Image Manipulation Program</b>\n"
+#~ "<b>Glimpse</b>\n"
 #~ "Copyright (C) 1995-2004\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team."
 
@@ -30113,7 +30108,7 @@ msgstr "fuzzy"
 #~ msgstr "It seems you have used Glimpse %s before."
 
 #~ msgid "_Migrate GIMP %s user settings"
-#~ msgstr "_Migrate GIMP %s user settings"
+#~ msgstr "_Migrate Glimpse %s user settings"
 
 #~ msgid "Do a _fresh user installation"
 #~ msgstr "Do a _fresh user installation"
@@ -30970,7 +30965,7 @@ msgstr "fuzzy"
 #~ "Key shortcuts can be dynamically redefined. The menurc is a dump of your "
 #~ "configuration so it can be remembered for the next session.  You may edit "
 #~ "this file if you wish, but it is much easier to define the keys from "
-#~ "within GIMP.  Deleting this file will restore the default shortcuts."
+#~ "within Glimpse.  Deleting this file will restore the default shortcuts."
 
 #~ msgid "Keep height  (%s)"
 #~ msgstr "Keep height  (%s)"

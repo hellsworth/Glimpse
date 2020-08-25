@@ -1,4 +1,4 @@
-# Tatarish localization of GIMP
+# Tatarish localization of Glimpse
 # Beznen Soft <tatarish.l10n@gmail.com>, 2005.
 #
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -178,7 +178,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../app/main.c:184
 #, fuzzy
@@ -318,7 +318,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Çuq Tözätkeç"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -469,7 +469,7 @@ msgstr "Töstüşäw Tözätkeç"
 msgid "Palettes"
 msgstr "Töstüşäw"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13130,7 +13130,7 @@ msgstr "Atalmağan"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr "'%s' atlı çuq biremen uqığanda xata: Birem özelgän bulıp kürenä."
 
 #: ../app/core/gimpbrush-load.c:519
@@ -13194,17 +13194,17 @@ msgstr "Alışukeşä"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Ğädäti birem tügel"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14813,7 +14813,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 
 #: ../app/core/gimppattern-load.c:99
@@ -18190,7 +18190,7 @@ msgstr "<b>GIMP'neñ kiñäşlär biremen uqıp bulmadı!</b>"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP - Bu Kön Kiñäşe"
+msgstr "Glimpse - Bu Kön Kiñäşe"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19128,13 +19128,8 @@ msgstr ""
 msgid "GNU I.M.P brush"
 msgstr "Yaña çuq"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Yaña çuq"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19144,7 +19139,7 @@ msgstr "Tutırma"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Tutırma"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -24661,7 +24656,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -28292,7 +28287,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28444,21 +28439,21 @@ msgstr ""
 
 # CHECK
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq bireme tügel."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq bireme tügel."
 
 # CHECK
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq söreme bilgesez."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq söreme bilgesez."
 
 # CHECK
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq şäkele bilgesez."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq şäkele bilgesez."
 
 #, fuzzy
 #~ msgid "Line %d: %s"
@@ -28475,12 +28470,12 @@ msgstr ""
 #, fuzzy
 #~ msgid "Fatal parse error in gradient file '%s': Read error in line %d."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 # CHECK
 #, fuzzy
@@ -28491,7 +28486,7 @@ msgstr ""
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Corrupt segment %d in line %d."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 #, fuzzy
 #~ msgid "Fade %s"
@@ -28803,7 +28798,7 @@ msgstr ""
 #~ msgstr "Yökläw"
 
 #~ msgid "Personal Glimpse Folder"
-#~ msgstr "Çäxsi GIMP-Törgäk"
+#~ msgstr "Çäxsi Glimpse-Törgäk"
 
 #~ msgid "Do_n't Save"
 #~ msgstr "Sa_qlamasqa"
