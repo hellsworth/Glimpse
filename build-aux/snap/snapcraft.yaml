@@ -137,8 +137,8 @@ parts:
       - -*
 
   gnome-extension:
-    after: [patches]
     build-packages:
+    - rsync
     - libgail-dev
     - libgtk-3-dev
     - libgtk2.0-dev
@@ -153,15 +153,12 @@ parts:
     - libgtk2.0-bin
     - unity-gtk2-module
     - ibus-gtk
+    - g++
     plugin: make
-    source: $SNAPCRAFT_EXTENSIONS_DIR/desktop
-    source-subdir: gnome
-    override-pull: |
-      snapcraftctl pull
-      # Remove GTK_PATH setting from launch script...
-      # ... we use GTK_EXE_PREFIX instead to support both GTK2 *AND* 3 without conflict
-      patch -Np3 < $SNAPCRAFT_STAGE/desktop-launch.patch
+    source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
+    source-subdir: gtk
     override-build: |
+      set -eux
       snapcraftctl build
       mkdir -p $SNAPCRAFT_PART_INSTALL/lib/gtk-2.0
       # Make GTK3 available via GTK_EXE_PREFIX expansion instead of GTK_PATH
@@ -172,16 +169,16 @@ parts:
         $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0
       ## DISABLED (2 of 4) because gtk2-common-themes only available on amd64
       # Make GTK2 engines available from content snap via GTK_EXE_PREFIX expansion
-      rm -rf $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/engines
-      ln -sf ../../../../lib/gtk-2.0/2.10.0/engines \
-        $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/
+      #rm -rf $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/engines
+      #ln -sf ../../../../lib/gtk-2.0/2.10.0/engines \
+      #  $SNAPCRAFT_PART_INSTALL/usr/lib/gtk-2.0/2.10.0/
 
-  patches:
-    source: build-aux/snap/local/patches
-    source-type: local
-    plugin: dump
-    prime:
-      - -*
+  #patches:
+  #  source: build-aux/snap/local/patches
+  #  source-type: local
+  #  plugin: dump
+  #  prime:
+  #    - -*
 
   scripts:
     source: build-aux/snap/local/scripts
